@@ -1,0 +1,87 @@
+/* Center the calculator on the page */
+body {
+  background: #d2ccc5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+/* Main calculator container */
+.Calculator {
+  width: 400px;
+  height: 300px;
+  margin: 25px;
+}
+ 
+/* General Calculator Button Style */
+.ButtonStyle {
+  background-color: #0997f5; /* Blue for standard buttons */
+  color: white;
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+}
+
+.ButtonStyle:hover {
+  background-color: #0880d6; /* Darker blue on hover */
+}
+
+/* Special Button Style for "Square" and "Show Me" */
+.special-button {
+  background-color: #4caf50; /* Green for special buttons */
+  color: white;
+  height: 50px;
+  width: 100px; /* Adjust size */
+  font-size: 18px;
+  margin: 0 10px; /* Add spacing between buttons */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  display: inline-block;
+  text-align: center; /* Center text inside button */
+}
+
+.special-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Special Buttons Row */
+.special-buttons-row {
+  display: flex; /* Align buttons horizontally */
+  justify-content: center; /* Center-align the buttons */
+  margin-top: 20px; /* Add spacing above */
+}
+
+/* Style for Input Display */
+.screen-row input {
+  width: 300px; /* Match the calculator width */
+  height: 50px; /* Adjust the height */
+  background: rgb(133, 32, 32); /* Dark red */
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  text-align: right; /* Align numbers to the right */
+}
+
+/* Optional: Style for Image Container */
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
